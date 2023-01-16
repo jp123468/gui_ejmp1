@@ -12,10 +12,13 @@ public class PanelDibujo extends JPanel {
         int altura = getHeight();//altura total
 
         //Dibuja una linea de la esquina superior izquierda a la esquina inferior der
-        g.drawLine(0,0,anchura,altura);
-        g.drawLine(20,20,60,60);
+       // g.drawLine(1000,anchura,altura,100);
+        g.drawLine(600,0,00,0);
+        g.drawLine(300,0,300,400);
+        g.drawLine(150,400,300,400);
+        g.drawLine(150,400,150,300);
         //Dibuja una linea de la esquina inferior izquierda a la esquina superior der
-        g.drawLine(0,altura,anchura,0);
+      //  g.drawLine(0,altura,anchura,0);
 
     }
 }
